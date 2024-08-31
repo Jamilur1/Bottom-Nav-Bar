@@ -4,6 +4,6 @@ class Market extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text("Market");
+    return Text("N0 Cart Available Here Right Now");
   }
 }

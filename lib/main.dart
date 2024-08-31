@@ -23,9 +23,10 @@ class _MyAppState extends State<MyApp>{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
 
-       // body: pages[index],
+        body: Center(child: pages[index]),
 
         bottomNavigationBar: BottomNavigationBar(
 
